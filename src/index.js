@@ -4,8 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));  // index.html içerisindeki id root olan elemana javascript dosyalarını ekle ve const sabiti üzerinden roota aktar
+root.render(    // root render ile de react dosyalarını ekle
   <React.StrictMode>
     <App />
   </React.StrictMode>
